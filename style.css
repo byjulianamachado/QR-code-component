@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('Outfit-VariableFont_wght.ttf') format('truetype');
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    border: none;
+}
+body,html {
+    background-color: hsl(212, 45%, 89%);
+}
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    width: 250px;
+}
+.qr-code img{
+    border-radius: 15px;
+    width: 90%;
+    margin-top: 10px;
+}
+.title {
+    color: hsl(218, 44%, 22%);
+    font-size: 17px;
+    font-weight: 700;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-transform: capitalize;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+}
+.subtitle {
+    color: hsl(220, 15%, 55%);
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+}
+.attribution {
+    color: hsl(218, 44%, 22%);
+    font-size: 10px;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+}
